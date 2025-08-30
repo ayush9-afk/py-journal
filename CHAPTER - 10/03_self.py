@@ -14,5 +14,5 @@ class Employee:
 emp1 = Employee()
 emp1.set_name("Harry")
 emp1.greet()
-emp1.getInfo()
-# Employee.getInfo(emp1) This is also Equivalent to the above line
+# emp1.getInfo()
+# Employee.getInfo(emp1) # This is also Equivalent to the above line
