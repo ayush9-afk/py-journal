@@ -12,7 +12,7 @@ class Employee:
     #     print(f"Good morning")
 
 emp1 = Employee()
-emp1.getInfo()
+# emp1.getInfo()
 Employee.getInfo(emp1) # This is also Equivalent to the above line
 emp1.update_salary(2000000)
 Employee.getInfo(emp1) # This is also Equivalent to the above line
