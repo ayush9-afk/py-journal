@@ -9,7 +9,12 @@ class Calculation:
     def squareroot(self):
         print(f"The square is {(self.n**1)/2}")
 
+    @staticmethod
+    def hello():
+        print("Hello World!")
+
 a = Calculation(4)
+a.hello()
 a.square()
 a.cube()
 a.squareroot()
