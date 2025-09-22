@@ -10,11 +10,12 @@ class Programmer(Employee):
 
 class Manager(Programmer):
     def __init__(self):
+        super().__init__()
         print("Constructer of Manager")
     c = 3
 
-o = Employee()
-print(o.a) 
+#o = Employee()
+#print(o.a) #Prints the a attribute
 
 #o = Programmer()
 #print(o.a, o.b)
