@@ -6,7 +6,7 @@ class Employee:
 class Programmer(Employee):
     def __init__(self):
         print("Constructor of Programmer")
-    b = 2
+    b = 3
 
 class Manager(Programmer):
     def __init__(self):
