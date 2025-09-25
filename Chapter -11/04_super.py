@@ -1,18 +1,18 @@
 class Employee:
     def __init__(self):
         print("Constructor of Employee")
-    a = 2
+    a = 1
 
 class Programmer(Employee):
     def __init__(self):
         print("Constructor of Programmer")
-    b = 3
+    b = 2
 
 class Manager(Programmer):
     def __init__(self):
         super().__init__()
         print("Constructer of Manager")
-    c = 4
+    c = 3
 
 #o = Employee()
 #print(o.a) #Prints the a attribute
