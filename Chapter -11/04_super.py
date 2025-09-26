@@ -10,7 +10,7 @@ class Programmer(Employee):
 
 class Manager(Programmer):
     def __init__(self):
-        super().__init__()
+        super().__init__()  # manager ke sath programmer construtor bhe run ho ga
         print("Constructer of Manager")
     c = 3
 
