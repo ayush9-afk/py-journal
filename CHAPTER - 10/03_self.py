@@ -5,7 +5,7 @@ class Employee:
     def getInfo(self):
         print(f"The language is {self.language}. The salary is {self.salary}")
 
-    @staticmethod
+    @staticmethod  # A method that doesn’t use self or cls.
     def greet():
         print("Good morning")
 
