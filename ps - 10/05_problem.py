@@ -19,15 +19,15 @@ t.book("Rampur", "Delhi")
 t.getstatus()
 t.getFare("Rampur", "Delhi")
 
+'''
+class train:
+   def ticket(person, conform, notconform):
+       person.conform = conform
+       person.nonconform = notconform 
+       print("Congratulation your ticket will {conform}")
+       print("Try next time {notconform}")
 
-#class train:
-#    def ticket(person, conform, notconform):
-#        person.conform = conform
-#        person.nonconform = notconform 
-#        print("Congratulation your ticket will {conform}")
-#        print("Try next time {notconform}")
-#
-#    def get_status()
-#    print
+   def get_status()
+   print
 
-
+'''
