@@ -11,7 +11,7 @@ class Employee:
     
     @name.setter
     def name (self, value):
-        self.fname = value.split(" ")[0]
+        self.fname = value.split(" ")[0]   
         self.lname = value.split(" ")[1]
 
 e = Employee()

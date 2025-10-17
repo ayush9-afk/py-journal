@@ -1,7 +1,7 @@
 class Employee:
     a = 1
     
-    @classmethod # this will print class value
+    @classmethod # method that acts on the class, not the object.
     def show(cls):
         print(f"The class attribute of a is {cls.a}")
 
