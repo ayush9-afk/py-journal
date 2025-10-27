@@ -1,7 +1,7 @@
 class Number:
 
     def __init__(self, n):
-        self.n = n   # assign instance variable
+        self.n = n   
     
     def __add__(self, num):
         return self.n + num.n
