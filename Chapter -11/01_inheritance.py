@@ -6,7 +6,6 @@ class Programmer(Employee): # Derived or child class
 # Code 
 '''
 
-
 class Employee:
     company = "ITC"
     def show(self):
@@ -21,7 +20,6 @@ class Programmer:
     def showLanguage(self):
         print(f"The name of employee {self.name} and he is good with {self.language} language")
 '''
-
 
 class Programmer(Employee):
     company = "ITC Infotech"
